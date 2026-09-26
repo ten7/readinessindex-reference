@@ -1,0 +1,5 @@
+# Working notes for this implementation — the plan, the build list, the
+# file-by-file reasoning. Deliberately local: they discuss scoring gaps and
+# decisions about other TEN7 systems, and this repository is the reference
+# implementation rather than the account of how it was built.
+docs/
