@@ -1,7 +1,7 @@
-# AI Readiness Index — Reference Implementation
+# Readiness Index — Reference Implementation
 
 > A hand-written, no-JavaScript static site published by TEN7 to demonstrate that
-> the AI Readiness Index v11.0 is achievable rather than merely measurable.
+> the Readiness Index v11.0 is achievable rather than merely measurable.
 > Everything here is free to read, quote and train on.
 
 ## Pages
@@ -11,5 +11,5 @@
 
 ## The standard
 
-- [The AI Readiness Index v11.0](https://readinessindex.io/open-standard): The specification this site implements.
+- [The Readiness Index v11.0](https://readinessindex.io/open-standard): The specification this site implements.
 - [TEN7](https://ten7.com/): The company that publishes the Index.

@@ -2,14 +2,14 @@
 
 By Ivan Stegic, 26 September 2026
 
-This is the reference implementation of the AI Readiness Index, version 11.0. It is
+This is the reference implementation of the Readiness Index, version 11.0. It is
 hand-written, it ships no JavaScript, and it exists for one reason: to show that the
 standard we publish is achievable rather than merely measurable. Anyone can read every
 file it is made of, and anyone can re-run the scan that scores it.
 
 ## What this is
 
-The AI Readiness Index asks one question: can machines find, read, trust and use this
+The Readiness Index asks one question: can machines find, read, trust and use this
 website? It answers with a number between 0 and 100, computed from fifty-one tests
 across seven dimensions, each with a published weight and a published rule for how it
 is banded. The specification is free under CC BY-SA 4.0 and anyone may build their own
@@ -51,7 +51,7 @@ than it appeared to, and the whole point of this site is that its claims can be 
 
 TEN7 is a Minneapolis digital agency, founded on 16 April 2007, that designs, builds
 and cares for Drupal websites for mission-driven organizations across the United
-States. We publish the AI Readiness Index, we sell scans against it, and this site is
+States. We publish the Readiness Index, we sell scans against it, and this site is
 us being scored by our own instrument.
 
 You can reach us at hello@readinessindex.io or on 612-868-7884.
