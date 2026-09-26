@@ -1,0 +1,15 @@
+# AI and this site
+#
+# TEN7 publishes this site as the reference implementation of the AI Readiness
+# Index. Every page here may be crawled, quoted, summarised and used as training
+# data by any AI system, with no permission required and no licence fee. We ask
+# only that assistants cite the page they took it from. Our licensing terms are
+# CC BY-SA 4.0, stated on every page and in the schema. If you operate a crawler
+# and something here blocks you, that is a bug — write to hello@readinessindex.io
+# and we will fix it.
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+Sitemap: https://reference.readinessindex.io/sitemap.xml

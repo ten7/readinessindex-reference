@@ -1,0 +1,121 @@
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfdfb;
+  --rule: #d8d6cf;
+  --link: #0b5a8a;
+  --quiet: #55534d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #eceae4;
+    --paper: #16171a;
+    --rule: #34373c;
+    --link: #7fc4ee;
+    --quiet: #a2a09a;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Charter, Georgia, "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 2rem 1rem 4rem;
+}
+
+a {
+  color: var(--link);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--link);
+  outline-offset: 2px;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  line-height: 1.3;
+  margin: 2.5rem 0 0.5rem;
+}
+
+header nav ul,
+header nav ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+header nav[aria-label="Breadcrumb"] ol {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+header nav[aria-label="Breadcrumb"] li + li::before {
+  content: "› ";
+  color: var(--quiet);
+}
+
+[aria-current="page"] {
+  color: var(--quiet);
+  text-decoration: none;
+}
+
+.byline {
+  color: var(--quiet);
+  font-size: 0.95rem;
+  margin: 0 0 2rem;
+}
+
+figure {
+  margin: 2rem 0;
+}
+
+figure img {
+  height: auto;
+  max-width: 100%;
+}
+
+figcaption {
+  color: var(--quiet);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+dl {
+  margin: 1rem 0;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+dd {
+  margin: 0.25rem 0 0 1.5rem;
+}
+
+footer {
+  border-top: 1px solid var(--rule);
+  color: var(--quiet);
+  font-size: 0.95rem;
+  margin-top: 4rem;
+  padding-top: 1rem;
+}

@@ -1,0 +1,15 @@
+# AI Readiness Index — Reference Implementation
+
+> A hand-written, no-JavaScript static site published by TEN7 to demonstrate that
+> the AI Readiness Index v11.0 is achievable rather than merely measurable.
+> Everything here is free to read, quote and train on.
+
+## Pages
+
+- [A website built to score 100](https://reference.readinessindex.io/): What this site is, why it exists, and how it scores against the fifty-one tests.
+- [Contact](https://reference.readinessindex.io/contact/): How to reach TEN7 about the Index, the standard, or this implementation.
+
+## The standard
+
+- [The AI Readiness Index v11.0](https://readinessindex.io/open-standard): The specification this site implements.
+- [TEN7](https://ten7.com/): The company that publishes the Index.

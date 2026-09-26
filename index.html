@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A website built to score 100 — AI Readiness Index reference implementation</title>
+<meta name="description" content="A hand-written, no-JavaScript static site published by TEN7 to demonstrate that the AI Readiness Index v11.0 is achievable rather than merely measurable.">
+<link rel="canonical" href="https://reference.readinessindex.io/">
+<link rel="alternate" type="text/markdown" href="https://reference.readinessindex.io/index.md">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://reference.readinessindex.io/#organization",
+      "name": "TEN7",
+      "legalName": "Ten 7 Interactive, LLC",
+      "url": "https://ten7.com/",
+      "description": "TEN7 is a Minneapolis digital agency that designs, builds and cares for Drupal websites for mission-driven organizations.",
+      "foundingDate": "2007-04-16",
+      "founder": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1904 James Ave S",
+        "addressLocality": "Minneapolis",
+        "addressRegion": "MN",
+        "postalCode": "55403",
+        "addressCountry": "US"
+      },
+      "areaServed": "United States",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "general enquiries",
+          "email": "hello@readinessindex.io",
+          "telephone": "+1-612-868-7884",
+          "availableLanguage": "en"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "the open standard",
+          "email": "hello@readinessindex.io",
+          "availableLanguage": "en"
+        }
+      ],
+      "taxID": "20-8886158",
+      "duns": "05-485-6339",
+      "sameAs": [
+        "https://www.linkedin.com/company/ten7/",
+        "https://www.drupal.org/ten7",
+        "https://github.com/ten7",
+        "https://x.com/ten7"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://reference.readinessindex.io/#ivan-stegic",
+      "name": "Ivan Stegic",
+      "jobTitle": "CEO",
+      "affiliation": { "@id": "https://reference.readinessindex.io/#organization" },
+      "knowsAbout": [
+        "AI readiness",
+        "Structured data",
+        "Web standards",
+        "Drupal"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0005-6369-8607",
+        "https://www.linkedin.com/in/ivanstegic/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://reference.readinessindex.io/#website",
+      "name": "AI Readiness Index — Reference Implementation",
+      "url": "https://reference.readinessindex.io/",
+      "publisher": { "@id": "https://reference.readinessindex.io/#organization" },
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://reference.readinessindex.io/#webpage",
+      "url": "https://reference.readinessindex.io/",
+      "name": "A website built to score 100",
+      "description": "What this site is, why it exists, and how it scores against the fifty-one tests.",
+      "isPartOf": { "@id": "https://reference.readinessindex.io/#website" },
+      "about": { "@id": "https://reference.readinessindex.io/#standard" },
+      "mentions": [
+        { "@id": "https://reference.readinessindex.io/#organization" },
+        { "@id": "https://reference.readinessindex.io/#checks" }
+      ],
+      "author": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "datePublished": "2026-09-26",
+      "dateModified": "2026-09-26",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://reference.readinessindex.io/#standard",
+      "name": "The AI Readiness Index, version 11.0",
+      "headline": "The AI Readiness Index, version 11.0",
+      "url": "https://readinessindex.io/open-standard",
+      "datePublished": "2026-09-24",
+      "version": "11.0",
+      "author": { "@id": "https://reference.readinessindex.io/#organization" },
+      "publisher": { "@id": "https://reference.readinessindex.io/#organization" },
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://reference.readinessindex.io/#checks",
+      "name": "AI Readiness Index check registry, version 11.0",
+      "description": "The fifty-one scored tests, their weights, dimensions and applicability rules.",
+      "url": "https://reference.readinessindex.io/",
+      "version": "11.0",
+      "creator": { "@id": "https://reference.readinessindex.io/#organization" },
+      "includedInDataCatalog": { "@id": "https://reference.readinessindex.io/#catalog" },
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": "https://reference.readinessindex.io/#catalog",
+      "name": "AI Readiness Index published datasets",
+      "description": "Everything the AI Readiness Index publishes as machine-readable data.",
+      "url": "https://reference.readinessindex.io/",
+      "dataset": { "@id": "https://reference.readinessindex.io/#checks" },
+      "publisher": { "@id": "https://reference.readinessindex.io/#organization" },
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="/" aria-current="page">Home</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="https://readinessindex.io/open-standard">The standard</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>A website built to score 100</h1>
+
+    <p class="byline">By <a rel="author" href="/contact/#who-answers">Ivan Stegic</a>,
+      <time datetime="2026-09-26">26 September 2026</time></p>
+
+    <p>This is the reference implementation of the AI Readiness Index, version 11.0.
+      It is hand-written, it ships no JavaScript, and it exists for one reason: to
+      show that the standard we publish is achievable rather than merely measurable.
+      Anyone can read every file it is made of, and anyone can re-run the scan that
+      scores it.</p>
+
+    <figure>
+      <img src="/dimensions.svg" width="800" height="380"
+           alt="Bar chart of the seven dimensions of the AI Readiness Index version 11.0: Primary Indicators 30 points, Rendering and extraction 15, Structured data 15, Crawl and licensing hygiene 12, Authorship and freshness 12, Agent interfaces 8, Alternate representations 8.">
+      <figcaption>Where the hundred points sit in version 11.0.</figcaption>
+    </figure>
+
+    <section>
+      <h2 id="what-this-is">What this is</h2>
+      <p>The AI Readiness Index asks one question: can machines find, read, trust and
+        use this website? It answers with a number between 0 and 100, computed from
+        fifty-one tests across seven dimensions, each with a published weight and a
+        published rule for how it is banded. The specification is free under CC BY-SA
+        4.0 and anyone may build their own scanner from it.</p>
+      <p>A standard nobody has satisfied is a hypothesis. This site is the attempt to
+        satisfy it in public, with the working shown. It is two pages, a stylesheet,
+        one diagram, and the handful of machine-readable files the Index asks for.
+        There is no framework, no build tool and no content management system behind
+        it, because none of those are what the Index measures.</p>
+    </section>
+
+    <section>
+      <h2 id="how-it-scores">How it scores</h2>
+      <p>Thirty points come from the Primary Indicators — whether crawlers are allowed
+        in, whether the edge actually serves them, whether the site states a position
+        on AI use, and whether one page is enough to work out who publishes it.
+        Fifteen come from rendering: the single heaviest test in the Index asks how
+        much of the page survives without JavaScript, and a site with no JavaScript
+        passes it by construction.</p>
+      <p>Another fifteen come from structured data, twelve from crawl and licensing
+        hygiene, twelve from authorship and freshness, and eight each from agent
+        interfaces and alternate representations. Every page here carries a Markdown
+        companion, a self-referencing canonical, a byline that resolves to a person,
+        and one linked entity graph rather than a pile of disconnected assertions.</p>
+    </section>
+
+    <section>
+      <h2 id="what-passes-by-absence">What passes by absence</h2>
+      <p>Twelve of the fifty-one tests pass because this site does not contain the
+        thing they measure. There is no search, no form, no shop, no pagination and no
+        API, so the tests that score those things record that there is nothing to fix.
+        That is the standard working as designed — you cannot fail at markup you do
+        not need — and it is worth twenty-one of the hundred points.</p>
+      <p>We say so here rather than leave somebody to discover it. A reference
+        implementation that quietly banked a fifth of its score on being small would
+        be making a weaker claim than it appeared to, and the whole point of this site
+        is that its claims can be checked.</p>
+    </section>
+
+    <section>
+      <h2 id="who-publishes-it">Who publishes it</h2>
+      <p>TEN7 is a Minneapolis digital agency, founded on 16 April 2007, that designs,
+        builds and cares for Drupal websites for mission-driven organizations across
+        the United States. We publish the AI Readiness Index, we sell scans against
+        it, and this site is us being scored by our own instrument.</p>
+      <p>You can reach us at
+        <a href="mailto:hello@readinessindex.io">hello@readinessindex.io</a> or on
+        <a href="tel:+16128687884">612-868-7884</a>, and there is
+        <a href="/contact/">more detail on the contact page</a>.</p>
+    </section>
+  </article>
+</main>
+
+<footer>
+  <p>Published by TEN7 under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+    Implements the AI Readiness Index
+    <a href="https://readinessindex.io/open-standard">version 11.0</a>,
+    effective 24 September 2026.</p>
+</footer>
+</body>
+</html>

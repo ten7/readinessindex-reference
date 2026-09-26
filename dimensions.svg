@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" role="img" aria-label="Bar chart of the seven dimensions of the AI Readiness Index version 11.0 and their point weights.">
+  <style>
+    :root { color-scheme: light dark; }
+    .bg { fill: #fdfdfb; }
+    .bar { fill: #0b5a8a; }
+    .label, .value, .caption { font-family: Charter, Georgia, serif; fill: #1a1a1a; }
+    .label { font-size: 16px; }
+    .value { font-size: 16px; font-weight: bold; }
+    .caption { font-size: 14px; fill: #55534d; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #16171a; }
+      .bar { fill: #7fc4ee; }
+      .label, .value { fill: #eceae4; }
+      .caption { fill: #a2a09a; }
+    }
+  </style>
+
+  <rect class="bg" width="800" height="380"/>
+
+  <text class="caption" x="0" y="18">AI Readiness Index v11.0 — 100 points across seven dimensions</text>
+
+  <g transform="translate(0,36)">
+    <text class="label" x="0" y="20">Primary Indicators</text>
+    <rect class="bar" x="250" y="6" width="480" height="18"/>
+    <text class="value" x="740" y="20">30</text>
+  </g>
+
+  <g transform="translate(0,82)">
+    <text class="label" x="0" y="20">Rendering and extraction</text>
+    <rect class="bar" x="250" y="6" width="240" height="18"/>
+    <text class="value" x="500" y="20">15</text>
+  </g>
+
+  <g transform="translate(0,128)">
+    <text class="label" x="0" y="20">Structured data</text>
+    <rect class="bar" x="250" y="6" width="240" height="18"/>
+    <text class="value" x="500" y="20">15</text>
+  </g>
+
+  <g transform="translate(0,174)">
+    <text class="label" x="0" y="20">Crawl and licensing hygiene</text>
+    <rect class="bar" x="250" y="6" width="192" height="18"/>
+    <text class="value" x="452" y="20">12</text>
+  </g>
+
+  <g transform="translate(0,220)">
+    <text class="label" x="0" y="20">Authorship and freshness</text>
+    <rect class="bar" x="250" y="6" width="192" height="18"/>
+    <text class="value" x="452" y="20">12</text>
+  </g>
+
+  <g transform="translate(0,266)">
+    <text class="label" x="0" y="20">Agent interfaces</text>
+    <rect class="bar" x="250" y="6" width="128" height="18"/>
+    <text class="value" x="388" y="20">8</text>
+  </g>
+
+  <g transform="translate(0,312)">
+    <text class="label" x="0" y="20">Alternate representations</text>
+    <rect class="bar" x="250" y="6" width="128" height="18"/>
+    <text class="value" x="388" y="20">8</text>
+  </g>
+</svg>
