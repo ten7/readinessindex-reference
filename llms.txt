@@ -7,7 +7,18 @@
 ## Pages
 
 - [A website built to score 100](https://reference.readinessindex.io/): What this site is, why it exists, and how it scores against the fifty-one tests.
-- [Contact](https://reference.readinessindex.io/contact/): How to reach TEN7 about the Index, the standard, or this implementation.
+- [The seven dimensions](https://reference.readinessindex.io/dimensions): The seven dimensions of the Readiness Index version 11.0, and how this site handles each one.
+- [Contact](https://reference.readinessindex.io/contact): How to reach TEN7 about the Index, the standard, or this implementation.
+
+## The dimensions
+
+- [Primary Indicators](https://reference.readinessindex.io/dimensions/primary-indicators): The thirteen highest-signal tests in the Readiness Index, all answerable from a single page.
+- [Rendering and extraction](https://reference.readinessindex.io/dimensions/rendering-and-extraction): Whether the facts survive without JavaScript, in a structure a parser can follow.
+- [Structured data and the entity graph](https://reference.readinessindex.io/dimensions/structured-data): Whether the markup forms one coherent graph, and whether every node in it is valid.
+- [Crawl, index and licensing hygiene](https://reference.readinessindex.io/dimensions/crawl-and-licensing): What the organization has said a crawler may keep, and whether crawl budget reaches real pages.
+- [Authorship, provenance, freshness](https://reference.readinessindex.io/dimensions/authorship-and-freshness): Trust signals expressed as structured data rather than as vibes.
+- [Agent interfaces](https://reference.readinessindex.io/dimensions/agent-interfaces): The move from a site an agent can read to a site an agent can use.
+- [Alternate representations](https://reference.readinessindex.io/dimensions/alternate-representations): Clean, low-noise versions of the content served alongside the HTML.
 
 ## The standard
 

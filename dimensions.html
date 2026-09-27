@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dimensions — Readiness Index reference implementation</title>
+<meta name="description" content="The seven dimensions of the Readiness Index version 11.0, and how this site handles each one.">
+<link rel="canonical" href="https://reference.readinessindex.io/dimensions">
+<link rel="alternate" type="text/markdown" href="https://reference.readinessindex.io/dimensions.md">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://reference.readinessindex.io/#organization",
+      "name": "TEN7",
+      "legalName": "Ten 7 Interactive, LLC",
+      "url": "https://ten7.com/",
+      "description": "TEN7 is a Minneapolis digital agency that designs, builds and cares for Drupal websites for mission-driven organizations.",
+      "foundingDate": "2007-04-16",
+      "founder": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1904 James Ave S",
+        "addressLocality": "Minneapolis",
+        "addressRegion": "MN",
+        "postalCode": "55403",
+        "addressCountry": "US"
+      },
+      "areaServed": "United States",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "general enquiries",
+          "email": "hello@readinessindex.io",
+          "telephone": "+1-612-868-7884",
+          "availableLanguage": "en"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "the open standard",
+          "email": "hello@readinessindex.io",
+          "availableLanguage": "en"
+        }
+      ],
+      "taxID": "20-8886158",
+      "duns": "05-485-6339",
+      "sameAs": [
+        "https://www.linkedin.com/company/ten7/",
+        "https://www.drupal.org/ten7",
+        "https://github.com/ten7",
+        "https://x.com/ten7"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://reference.readinessindex.io/#ivan-stegic",
+      "name": "Ivan Stegic",
+      "jobTitle": "CEO",
+      "affiliation": { "@id": "https://reference.readinessindex.io/#organization" },
+      "knowsAbout": [
+        "AI readiness",
+        "Structured data",
+        "Web standards",
+        "Drupal"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0005-6369-8607",
+        "https://www.linkedin.com/in/ivanstegic/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://reference.readinessindex.io/#website",
+      "name": "Readiness Index — Reference Implementation",
+      "url": "https://reference.readinessindex.io/",
+      "publisher": { "@id": "https://reference.readinessindex.io/#organization" },
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://reference.readinessindex.io/dimensions#webpage",
+      "url": "https://reference.readinessindex.io/dimensions",
+      "name": "Dimensions",
+      "description": "The seven dimensions of the Readiness Index version 11.0, and how this site handles each one.",
+      "isPartOf": { "@id": "https://reference.readinessindex.io/#website" },
+      "about": { "@id": "https://reference.readinessindex.io/#standard" },
+      "author": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "inLanguage": "en",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://reference.readinessindex.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dimensions",
+            "item": "https://reference.readinessindex.io/dimensions"
+          }
+        ]
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/dimensions" aria-current="page">Dimensions</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="https://readinessindex.io/">readinessindex.io</a></li>
+    </ul>
+  </nav>
+  <nav aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li aria-current="page">Dimensions</li>
+    </ol>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>The seven dimensions</h1>
+
+    <p class="byline">By <a rel="author" href="/contact#who-answers">Ivan Stegic</a>,
+      <time datetime="2026-09-25">2026-09-25</time></p>
+
+    <p>Version 11.0 of the Readiness Index spreads a hundred points across seven
+      dimensions and fifty-one tests. Each page below says what one dimension measures
+      and what this site does about it — including where it falls short.</p>
+
+    <section>
+      <h2 id="the-dimensions">The dimensions</h2>
+      <dl>
+        <dt><a href="/dimensions/primary-indicators">Primary Indicators</a></dt>
+        <dd>30 points across 13 tests. The thirteen highest-signal tests in the Readiness Index, all answerable from a single page.</dd>
+        <dt><a href="/dimensions/rendering-and-extraction">Rendering and extraction</a></dt>
+        <dd>15 points across 6 tests. Whether the facts survive without JavaScript, in a structure a parser can follow.</dd>
+        <dt><a href="/dimensions/structured-data">Structured data and the entity graph</a></dt>
+        <dd>15 points across 8 tests. Whether the markup forms one coherent graph, and whether every node in it is valid.</dd>
+        <dt><a href="/dimensions/crawl-and-licensing">Crawl, index and licensing hygiene</a></dt>
+        <dd>12 points across 10 tests. What the organization has said a crawler may keep, and whether crawl budget reaches real pages.</dd>
+        <dt><a href="/dimensions/authorship-and-freshness">Authorship, provenance, freshness</a></dt>
+        <dd>12 points across 6 tests. Trust signals expressed as structured data rather than as vibes.</dd>
+        <dt><a href="/dimensions/agent-interfaces">Agent interfaces</a></dt>
+        <dd>8 points across 4 tests. The move from a site an agent can read to a site an agent can use.</dd>
+        <dt><a href="/dimensions/alternate-representations">Alternate representations</a></dt>
+        <dd>8 points across 4 tests. Clean, low-noise versions of the content served alongside the HTML.</dd>
+      </dl>
+    </section>
+  </article>
+</main>
+
+<footer>
+  <p>Published by TEN7 under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+    Implements the Readiness Index
+    <a href="https://readinessindex.io/open-standard">version 11.0</a>,
+    effective 24 September 2026.</p>
+</footer>
+</body>
+</html>

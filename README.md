@@ -13,9 +13,9 @@ site, served from GitHub Pages, built to score as close to 100 as the Index allo
 
 ```
 index.html            the homepage
-contact/index.html    served at /contact/
+contact.html          served at /contact
 index.md              Markdown companion for the homepage
-contact.md            Markdown companion for /contact/  (AIR-7.1)
+contact.md            Markdown companion for /contact  (AIR-7.1)
 robots.txt            crawler permissions, Content Signals, AI policy prose
 llms.txt              llmstxt.org index of the site
 sitemap.xml           a sitemap index

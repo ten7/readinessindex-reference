@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alternate representations — Readiness Index reference implementation</title>
+<meta name="description" content="Clean, low-noise versions of the content served alongside the HTML.">
+<link rel="canonical" href="https://reference.readinessindex.io/dimensions/alternate-representations">
+<link rel="alternate" type="text/markdown" href="https://reference.readinessindex.io/dimensions/alternate-representations.md">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://reference.readinessindex.io/#organization",
+      "name": "TEN7",
+      "legalName": "Ten 7 Interactive, LLC",
+      "url": "https://ten7.com/",
+      "description": "TEN7 is a Minneapolis digital agency that designs, builds and cares for Drupal websites for mission-driven organizations.",
+      "foundingDate": "2007-04-16",
+      "founder": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1904 James Ave S",
+        "addressLocality": "Minneapolis",
+        "addressRegion": "MN",
+        "postalCode": "55403",
+        "addressCountry": "US"
+      },
+      "areaServed": "United States",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "general enquiries",
+          "email": "hello@readinessindex.io",
+          "telephone": "+1-612-868-7884",
+          "availableLanguage": "en"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "the open standard",
+          "email": "hello@readinessindex.io",
+          "availableLanguage": "en"
+        }
+      ],
+      "taxID": "20-8886158",
+      "duns": "05-485-6339",
+      "sameAs": [
+        "https://www.linkedin.com/company/ten7/",
+        "https://www.drupal.org/ten7",
+        "https://github.com/ten7",
+        "https://x.com/ten7"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://reference.readinessindex.io/#ivan-stegic",
+      "name": "Ivan Stegic",
+      "jobTitle": "CEO",
+      "affiliation": { "@id": "https://reference.readinessindex.io/#organization" },
+      "knowsAbout": [
+        "AI readiness",
+        "Structured data",
+        "Web standards",
+        "Drupal"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0005-6369-8607",
+        "https://www.linkedin.com/in/ivanstegic/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://reference.readinessindex.io/#website",
+      "name": "Readiness Index — Reference Implementation",
+      "url": "https://reference.readinessindex.io/",
+      "publisher": { "@id": "https://reference.readinessindex.io/#organization" },
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://reference.readinessindex.io/dimensions/alternate-representations#webpage",
+      "url": "https://reference.readinessindex.io/dimensions/alternate-representations",
+      "name": "Alternate representations",
+      "description": "Clean, low-noise versions of the content served alongside the HTML.",
+      "isPartOf": { "@id": "https://reference.readinessindex.io/#website" },
+      "about": { "@id": "https://reference.readinessindex.io/#standard" },
+      "author": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "datePublished": "2026-09-26",
+      "dateModified": "2026-09-26",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "inLanguage": "en",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://reference.readinessindex.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dimensions",
+            "item": "https://reference.readinessindex.io/dimensions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Alternate representations",
+            "item": "https://reference.readinessindex.io/dimensions/alternate-representations"
+          }
+        ]
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/dimensions">Dimensions</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="https://readinessindex.io/">readinessindex.io</a></li>
+    </ul>
+  </nav>
+  <nav aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/dimensions">Dimensions</a></li>
+      <li aria-current="page">Alternate representations</li>
+    </ol>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>Alternate representations</h1>
+
+    <p class="byline">By <a rel="author" href="/contact#who-answers">Ivan Stegic</a>,
+      <time datetime="2026-09-26">2026-09-26</time></p>
+
+    <p>Read this before you sell it: evidence that these files are consumed by the major models remains thin. They are here because they are cheap, they force good content hygiene, and being early costs nothing.</p>
+
+    <section>
+      <h2 id="what-it-measures">What it measures</h2>
+      <p>Whether every canonical page has a Markdown companion that matches the page body without the navigation chrome. Whether that companion is advertised in the head so it can be found. Whether the canonical URL itself will serve Markdown to a client that asks for it, with the cache headers that make doing so safe. And whether these generated files are served from an edge cache rather than regenerated on every request.</p>
+    </section>
+
+    <section>
+      <h2 id="how-this-site-handles-it">How this site handles it</h2>
+      <p>Every page here has a Markdown twin with the nav, the breadcrumb and the footer stripped out, advertised from the head and served with the right content type. They are edge-cached. Content negotiation on the Accept header is the one test in this dimension the site does not pass: it requires a rewrite at the edge, and this site is served directly from GitHub Pages with no proxy in front of it. Getting that wrong would be worse than not doing it, so it is left undone and said out loud.</p>
+    </section>
+
+    <section>
+      <h2 id="weight">Weight</h2>
+      <p>8 of the hundred points, across 4 tests. The full definitions are in
+        <a href="https://readinessindex.io/open-standard">the open standard</a>.</p>
+    </section>
+  </article>
+</main>
+
+<footer>
+  <p>Published by TEN7 under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+    Implements the Readiness Index
+    <a href="https://readinessindex.io/open-standard">version 11.0</a>,
+    effective 24 September 2026.</p>
+</footer>
+</body>
+</html>

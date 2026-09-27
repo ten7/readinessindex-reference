@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rendering and extraction — Readiness Index reference implementation</title>
+<meta name="description" content="Whether the facts survive without JavaScript, in a structure a parser can follow.">
+<link rel="canonical" href="https://reference.readinessindex.io/dimensions/rendering-and-extraction">
+<link rel="alternate" type="text/markdown" href="https://reference.readinessindex.io/dimensions/rendering-and-extraction.md">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://reference.readinessindex.io/#organization",
+      "name": "TEN7",
+      "legalName": "Ten 7 Interactive, LLC",
+      "url": "https://ten7.com/",
+      "description": "TEN7 is a Minneapolis digital agency that designs, builds and cares for Drupal websites for mission-driven organizations.",
+      "foundingDate": "2007-04-16",
+      "founder": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1904 James Ave S",
+        "addressLocality": "Minneapolis",
+        "addressRegion": "MN",
+        "postalCode": "55403",
+        "addressCountry": "US"
+      },
+      "areaServed": "United States",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "general enquiries",
+          "email": "hello@readinessindex.io",
+          "telephone": "+1-612-868-7884",
+          "availableLanguage": "en"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "the open standard",
+          "email": "hello@readinessindex.io",
+          "availableLanguage": "en"
+        }
+      ],
+      "taxID": "20-8886158",
+      "duns": "05-485-6339",
+      "sameAs": [
+        "https://www.linkedin.com/company/ten7/",
+        "https://www.drupal.org/ten7",
+        "https://github.com/ten7",
+        "https://x.com/ten7"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://reference.readinessindex.io/#ivan-stegic",
+      "name": "Ivan Stegic",
+      "jobTitle": "CEO",
+      "affiliation": { "@id": "https://reference.readinessindex.io/#organization" },
+      "knowsAbout": [
+        "AI readiness",
+        "Structured data",
+        "Web standards",
+        "Drupal"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0005-6369-8607",
+        "https://www.linkedin.com/in/ivanstegic/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://reference.readinessindex.io/#website",
+      "name": "Readiness Index — Reference Implementation",
+      "url": "https://reference.readinessindex.io/",
+      "publisher": { "@id": "https://reference.readinessindex.io/#organization" },
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://reference.readinessindex.io/dimensions/rendering-and-extraction#webpage",
+      "url": "https://reference.readinessindex.io/dimensions/rendering-and-extraction",
+      "name": "Rendering and extraction",
+      "description": "Whether the facts survive without JavaScript, in a structure a parser can follow.",
+      "isPartOf": { "@id": "https://reference.readinessindex.io/#website" },
+      "about": { "@id": "https://reference.readinessindex.io/#standard" },
+      "author": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
+      "datePublished": "2026-09-21",
+      "dateModified": "2026-09-21",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "inLanguage": "en",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://reference.readinessindex.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dimensions",
+            "item": "https://reference.readinessindex.io/dimensions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Rendering and extraction",
+            "item": "https://reference.readinessindex.io/dimensions/rendering-and-extraction"
+          }
+        ]
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/dimensions">Dimensions</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="https://readinessindex.io/">readinessindex.io</a></li>
+    </ul>
+  </nav>
+  <nav aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/dimensions">Dimensions</a></li>
+      <li aria-current="page">Rendering and extraction</li>
+    </ol>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>Rendering and extraction</h1>
+
+    <p class="byline">By <a rel="author" href="/contact#who-answers">Ivan Stegic</a>,
+      <time datetime="2026-09-21">2026-09-21</time></p>
+
+    <p>Most crawlers that feed answer engines do not execute JavaScript. This dimension asks a blunt question: how much of the page is actually in the server&#x27;s response?</p>
+
+    <section>
+      <h2 id="what-it-measures">What it measures</h2>
+      <p>The gap between the raw HTTP response and the hydrated DOM, measured as a ratio and averaged across the sample. That single test carries six points, the heaviest in the Index. Around it sit tables with real header cells, alt text on content images, anchor identifiers stable enough to cite a passage rather than a page, and whether any key fact is trapped in an image or a PDF.</p>
+    </section>
+
+    <section>
+      <h2 id="how-this-site-handles-it">How this site handles it</h2>
+      <p>This site ships no JavaScript, so the raw response and the rendered page are the same document and the heaviest test passes by construction. Every heading below the h1 carries an identifier derived from its own text, so they survive a rebuild unchanged. There are no PDFs. The one diagram is an SVG whose numbers also appear in the prose beside it, because a fact that exists only inside a picture is a fact a parser cannot read.</p>
+    </section>
+
+    <section>
+      <h2 id="weight">Weight</h2>
+      <p>15 of the hundred points, across 6 tests. The full definitions are in
+        <a href="https://readinessindex.io/open-standard">the open standard</a>.</p>
+    </section>
+  </article>
+</main>
+
+<footer>
+  <p>Published by TEN7 under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+    Implements the Readiness Index
+    <a href="https://readinessindex.io/open-standard">version 11.0</a>,
+    effective 24 September 2026.</p>
+</footer>
+</body>
+</html>

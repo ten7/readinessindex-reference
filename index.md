@@ -21,6 +21,13 @@ handful of machine-readable files the Index asks for. There is no framework, no 
 tool and no content management system behind it, because none of those are what the
 Index measures.
 
+## The seven dimensions
+
+Each dimension has its own page saying what it measures and what this site does about
+it, including where it falls short: Primary Indicators, Rendering and extraction,
+Structured data, Crawl and licensing hygiene, Authorship and freshness, Agent
+interfaces and Alternate representations.
+
 ## How it scores
 
 Thirty points come from the Primary Indicators — whether crawlers are allowed in,
