@@ -12,21 +12,25 @@ site, served from GitHub Pages, built to score as close to 100 as the Index allo
 ## What is here
 
 ```
-index.html            the homepage
-contact.html          served at /contact
-index.md              Markdown companion for the homepage
-contact.md            Markdown companion for /contact  (AIR-7.1)
-robots.txt            crawler permissions, Content Signals, AI policy prose
-llms.txt              llmstxt.org index of the site
-sitemap.xml           a sitemap index
-sitemap-pages.xml     its one child
-dimensions.svg        the seven dimensions and their weights
-style.css             one stylesheet
-.nojekyll             GitHub Pages serves these files as-is
+index.html                     the homepage
+contact.html                   served at /contact
+dimensions.html                served at /dimensions
+dimensions/*.html              one page per dimension, seven of them
+*.md                           a Markdown companion beside every page  (AIR-7.1)
+robots.txt                     crawler permissions, Content Signals, AI policy prose
+llms.txt                       llmstxt.org index of the site
+sitemap.xml                    a sitemap index
+sitemap-pages.xml              top-level pages
+sitemap-dimensions.xml         the dimension pages
+sitemap-images.xml             the diagram, with the image namespace
+dimensions.svg                 the seven dimensions and their weights
+style.css                      one stylesheet
+.nojekyll                      GitHub Pages serves these files as-is
 ```
 
-Eleven files. No framework, no build step, no content management system, because none
-of those are what the Index measures.
+Ten pages and the machine-readable files that describe them. No framework, no
+content management system, and nothing on the page that a browser has to execute,
+because none of those are what the Index measures.
 
 ## Design rules
 

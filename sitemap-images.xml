@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://reference.readinessindex.io/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <image:image>
+      <image:loc>https://reference.readinessindex.io/dimensions.svg</image:loc>
+      <image:title>The seven dimensions of the Readiness Index v11.0</image:title>
+      <image:caption>Bar chart of the seven dimensions and their point weights: Primary Indicators 30, Rendering and extraction 15, Structured data 15, Crawl and licensing hygiene 12, Authorship and freshness 12, Agent interfaces 8, Alternate representations 8.</image:caption>
+    </image:image>
+  </url>
+</urlset>
