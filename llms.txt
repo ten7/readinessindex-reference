@@ -1,13 +1,13 @@
 # Readiness Index — Reference Implementation
 
 > A hand-written, no-JavaScript static site published by TEN7 to demonstrate that
-> the Readiness Index v11.0 is achievable rather than merely measurable.
+> the Readiness Index v11.3 is achievable rather than merely measurable.
 > Everything here is free to read, quote and train on.
 
 ## Pages
 
 - [A website built to score 100](https://reference.readinessindex.io/): What this site is, why it exists, and how it scores against the fifty-one tests.
-- [The seven dimensions](https://reference.readinessindex.io/dimensions): The seven dimensions of the Readiness Index version 11.0, and how this site handles each one.
+- [The seven dimensions](https://reference.readinessindex.io/dimensions): The seven dimensions of the Readiness Index version 11.3, and how this site handles each one.
 - [Contact](https://reference.readinessindex.io/contact): How to reach TEN7 about the Index, the standard, or this implementation.
 
 ## The dimensions
@@ -22,6 +22,7 @@
 
 ## The standard
 
+- [Reference scan](https://readinessindex.io/reference-scan): The Readiness Index scan of this site, against version 11.3.
 - [Licence (RSL 1.0)](https://reference.readinessindex.io/license.xml): Machine-readable licensing terms: all uses permitted, attribution requested, CC BY-SA 4.0.
-- [The Readiness Index v11.0](https://readinessindex.io/open-standard): The specification this site implements.
+- [The Readiness Index v11.3](https://readinessindex.io/open-standard): The specification this site implements.
 - [TEN7](https://ten7.com/): The company that publishes the Index.

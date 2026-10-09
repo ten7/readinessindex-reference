@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://reference.readinessindex.io/dimensions/primary-indicators</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://reference.readinessindex.io/dimensions/rendering-and-extraction</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://reference.readinessindex.io/dimensions/structured-data</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://reference.readinessindex.io/dimensions/crawl-and-licensing</loc>
@@ -18,14 +18,14 @@
   </url>
   <url>
     <loc>https://reference.readinessindex.io/dimensions/authorship-and-freshness</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://reference.readinessindex.io/dimensions/agent-interfaces</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://reference.readinessindex.io/dimensions/alternate-representations</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-08</lastmod>
   </url>
 </urlset>

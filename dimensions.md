@@ -2,7 +2,7 @@
 
 By Ivan Stegic, 2026-09-25
 
-Version 11.0 of the Readiness Index spreads a hundred points across seven dimensions
+Version 11.3 of the Readiness Index spreads a hundred points across seven dimensions
 and fifty-one tests. Each page below says what one dimension measures and what this
 site does about it — including where it falls short.
 

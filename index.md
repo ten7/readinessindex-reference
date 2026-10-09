@@ -2,7 +2,7 @@
 
 By Ivan Stegic, 26 September 2026
 
-This is the reference implementation of the Readiness Index, version 11.0. It is
+This is the reference implementation of the Readiness Index, version 11.3. It is
 hand-written, it ships no JavaScript, and it exists for one reason: to show that the
 standard we publish is achievable rather than merely measurable. Anyone can read every
 file it is made of, and anyone can re-run the scan that scores it.

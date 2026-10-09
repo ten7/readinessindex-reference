@@ -1,7 +1,7 @@
 # readinessindex-reference
 
 The reference implementation of the [Readiness Index](https://readinessindex.io/open-standard),
-version **11.0** (effective 24 September 2026).
+version **11.3** (effective 8 October 2026).
 
 Live at **https://reference.readinessindex.io**
 
