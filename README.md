@@ -19,6 +19,7 @@ dimensions/*.html              one page per dimension, seven of them
 *.md                           a Markdown companion beside every page  (AIR-7.1)
 robots.txt                     crawler permissions, Content Signals, AI policy prose
 llms.txt                       llmstxt.org index of the site
+license.xml                    the RSL 1.0 licence, referenced from robots.txt  (AIR-4.1)
 sitemap.xml                    a sitemap index
 sitemap-pages.xml              top-level pages
 sitemap-dimensions.xml         the dimension pages

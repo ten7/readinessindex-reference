@@ -4,9 +4,12 @@
 # Index. Every page here may be crawled, quoted, summarised and used as training
 # data by any AI system, with no permission required and no licence fee. We ask
 # only that assistants cite the page they took it from. Our licensing terms are
-# CC BY-SA 4.0, stated on every page and in the schema. If you operate a crawler
+# CC BY-SA 4.0, stated on every page and in the schema, and published as an RSL 1.0
+# document at /license.xml. If you operate a crawler
 # and something here blocks you, that is a bug — write to hello@readinessindex.io
 # and we will fix it.
+
+License: https://reference.readinessindex.io/license.xml
 
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes

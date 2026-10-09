@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsl xmlns="https://rslstandard.org/rsl">
+  <content url="https://reference.readinessindex.io/">
+    <copyright type="organization" contactEmail="hello@readinessindex.io">TEN7</copyright>
+    <license>
+      <permits type="usage">all</permits>
+      <payment type="attribution">
+        <standard>https://creativecommons.org/licenses/by-sa/4.0/</standard>
+      </payment>
+      <terms>https://creativecommons.org/licenses/by-sa/4.0/</terms>
+    </license>
+  </content>
+</rsl>

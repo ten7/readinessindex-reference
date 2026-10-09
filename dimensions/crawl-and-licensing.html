@@ -6,6 +6,7 @@
 <title>Crawl, index and licensing hygiene — Readiness Index reference implementation</title>
 <meta name="description" content="What the organization has said a crawler may keep, and whether crawl budget reaches real pages.">
 <link rel="canonical" href="https://reference.readinessindex.io/dimensions/crawl-and-licensing">
+<link rel="license" type="application/rsl+xml" href="https://reference.readinessindex.io/license.xml">
 <link rel="alternate" type="text/markdown" href="https://reference.readinessindex.io/dimensions/crawl-and-licensing.md">
 <link rel="stylesheet" href="/style.css">
 <script type="application/ld+json">
@@ -90,7 +91,7 @@
       "about": { "@id": "https://reference.readinessindex.io/#standard" },
       "author": { "@id": "https://reference.readinessindex.io/#ivan-stegic" },
       "datePublished": "2026-09-23",
-      "dateModified": "2026-09-23",
+      "dateModified": "2026-10-08",
       "isAccessibleForFree": true,
       "license": "https://creativecommons.org/licenses/by-sa/4.0/",
       "inLanguage": "en",
@@ -157,7 +158,7 @@
 
     <section>
       <h2 id="how-this-site-handles-it">How this site handles it</h2>
-      <p>The sitemap here is an index pointing at a typed child rather than one flat list. Missing pages return a real 404 rather than a thin page with a 200. No URL on the site carries a query string, so the parameter space is not merely controlled but empty. Each page&#x27;s timestamp comes from when its content last changed, never from the build, which is the distinction the freshness test exists to catch.</p>
+      <p>The sitemap here is an index pointing at a typed child rather than one flat list. Missing pages return a real 404 rather than a thin page with a 200. No URL on the site carries a query string, so the parameter space is not merely controlled but empty. Each page&#x27;s timestamp comes from when its content last changed, never from the build, which is the distinction the freshness test exists to catch. The licence itself is published as an RSL 1.0 document at <a href="/license.xml">/license.xml</a>, referenced from robots.txt and from the head of every page: all uses permitted, attribution requested, CC BY-SA 4.0 as the terms.</p>
     </section>
 
     <section>

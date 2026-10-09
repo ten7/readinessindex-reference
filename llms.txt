@@ -22,5 +22,6 @@
 
 ## The standard
 
+- [Licence (RSL 1.0)](https://reference.readinessindex.io/license.xml): Machine-readable licensing terms: all uses permitted, attribution requested, CC BY-SA 4.0.
 - [The Readiness Index v11.0](https://readinessindex.io/open-standard): The specification this site implements.
 - [TEN7](https://ten7.com/): The company that publishes the Index.

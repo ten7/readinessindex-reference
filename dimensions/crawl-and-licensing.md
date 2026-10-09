@@ -10,7 +10,7 @@ Licensing posture — whether machine-readable terms exist and travel with the c
 
 ## How this site handles it
 
-The sitemap here is an index pointing at a typed child rather than one flat list. Missing pages return a real 404 rather than a thin page with a 200. No URL on the site carries a query string, so the parameter space is not merely controlled but empty. Each page's timestamp comes from when its content last changed, never from the build, which is the distinction the freshness test exists to catch.
+The sitemap here is an index pointing at a typed child rather than one flat list. Missing pages return a real 404 rather than a thin page with a 200. No URL on the site carries a query string, so the parameter space is not merely controlled but empty. Each page's timestamp comes from when its content last changed, never from the build, which is the distinction the freshness test exists to catch. The licence itself is published as an RSL 1.0 document at /license.xml, referenced from robots.txt and from the head of every page: all uses permitted, attribution requested, CC BY-SA 4.0 as the terms.
 
 ## Weight
 
